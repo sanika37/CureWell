@@ -1,7 +1,7 @@
 # 🏥 Curewell Healthcare Management System  
 
 ## Overview  
-Curewell is a **comprehensive healthcare management system** designed to streamline hospital operations for **Curewell Hospital in Sydney**. It enhances efficiency by managing **doctors, specializations, surgeries, and user authentication** while ensuring **scalability, maintainability, and security** with a modern tech stack.  
+NeoCare is a **comprehensive healthcare management system** designed to streamline hospital operations for **Curewell Hospital in Sydney**. It enhances efficiency by managing **doctors, specializations, surgeries, and user authentication** while ensuring **scalability, maintainability, and security** with a modern tech stack.  
 
 ## 🚀 Tech Stack  
 
@@ -10,10 +10,15 @@ Curewell is a **comprehensive healthcare management system** designed to streaml
 - **React Bootstrap** – Pre-styled, responsive UI components.  
 - **Axios** – API communication.  
 
-### **Backend:**  
-- **Java & Spring Boot** – Scalable backend services.  
-- **Spring Security** – Role-based authentication & security.  
-- **JPA & MySQL** – Data persistence & relational database.  
+### **Backend (Spring Boot)**  
+- **Spring Boot** – Framework for building Java applications.  
+- **Spring Security** – Handles authentication and role-based access control.  
+- **Spring Data JPA** – Simplifies database interactions.  
+- **MySQL** – Stores users, products, orders, and other data.  
+- **JWT (JSON Web Token)** – For secure user authentication.  
+- **Lombok** – Reduces boilerplate Java code.  
+- **Spring Boot DevTools** – Enables live reload for development.  
+- **Docker** – Containerization for easy deployment.  
 
 ### **Testing & Deployment:**  
 - **Postman** – API testing.  
@@ -136,7 +141,7 @@ docker-compose up --build
 
 ## 🎯 Conclusion  
 
-Curewell Healthcare Management System is a **scalable, secure, and efficient** solution for hospital operations, ensuring smooth doctor, specialization, and surgery management. With **Docker-based deployment**, **role-based security**, and **RESTful API architecture**, the system is well-optimized for future enhancements.  
+NeoCare Healthcare Management System is a **scalable, secure, and efficient** solution for hospital operations, ensuring smooth doctor, specialization, and surgery management. With **Docker-based deployment**, **role-based security**, and **RESTful API architecture**, the system is well-optimized for future enhancements.  
 
 ---
 
